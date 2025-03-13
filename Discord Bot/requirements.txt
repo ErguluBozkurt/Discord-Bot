@@ -1,0 +1,4 @@
+discord.py>=2.0.0
+databases>=0.5.0
+db-sqlite3>=0.0.1
+unittest>=1.0.0
