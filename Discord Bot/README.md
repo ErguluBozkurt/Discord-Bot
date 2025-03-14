@@ -1,10 +1,10 @@
 ## ADIM 1: Python'u Yükleyin
 - Projeyi çalıştırmak için Python 3.8 veya üzeri bir sürüm gereklidir. Python'u resmi sitesinden indirebilirsiniz.**https://www.python.org/downloads/**
-Python'ı kullanmak için çeşitli kod editörleri veya geliştirme ortamları (IDE) mevcuttur. Örneğin:
-- Visual Studio Code **https://code.visualstudio.com/**
-- Jupyter Notebook **https://jupyter.org/**
-- PyCharm **https://www.jetbrains.com/pycharm/**
-- Google Colab **https://colab.research.google.com/**
+- Python'ı kullanmak için çeşitli kod editörleri veya geliştirme ortamları (IDE) mevcuttur. Örneğin:
+- - Visual Studio Code **https://code.visualstudio.com/**
+- - Jupyter Notebook **https://jupyter.org/**
+- - PyCharm **https://www.jetbrains.com/pycharm/**
+- - Google Colab **https://colab.research.google.com/**
 
 
 ## ADIM 2: Kütüphaneleri İndirin
