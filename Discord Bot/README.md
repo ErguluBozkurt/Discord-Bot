@@ -9,18 +9,18 @@ Python'ı kullanamk için çeşitli arayüzler mevcuttur. Örneğin:
 
 ## ADIM 2: Kütüphaneleri İndirin
 - Aşağıdaki komutu kullanarak gerekli kütüphaneleri yükleyebilirsiniz:
-    pip install -r requirements.txt
+--> pip install -r requirements.txt
 - Manuel olarak indirmek isterseniz aşağıdaki komutları python terminalinizde çalıştırın.
-    pip install discord.py
-    pip install databases
-    pip install db-sqlite3
-    pip install unittest (Genellikle yüklü olur)
+--> pip install discord.py
+--> pip install databases
+--> pip install db-sqlite3
+--> pip install unittest (Genellikle yüklü olur)
 
 
 ## ADIM 3: Proje Dosyalarını İndirin
 - Proje dosyalarını bilgisayarınıza indirin veya klonlayın:
-    git clone **https://github.com/sizin-kullanici-adiniz/task_manager_bot.git**
-    cd task_manager_bot
+--> git clone **https://github.com/ErguluBozkurt/Discord-Bot.git**
+--> cd task_manager_bot
 
 
 ## ADIM 4: Bot Hesabı Oluşturma
@@ -50,14 +50,14 @@ Python'ı kullanamk için çeşitli arayüzler mevcuttur. Örneğin:
 ## ADIM 7: Token'ı Bot Koduna Ekleyin
 - bot.py dosyasını açın.
 - "YOUR_DISCORD_BOT_TOKEN" yerine kopyaladığınız token'ı yapıştırın. Örneğin:
-    bot.run('NDk5ODQ2NzY0MzYwODUyMzI4.DqBz9g.7z8wv9x0y1z2a3b4c5d6e7f8g9h0i')
+--> bot.run('NDk5ODQ2NzY0MzYwODUyMzI4.DqBz9g.7z8wv9x0y1z2a3b4c5d6e7f8g9h0i')
 
 
 ## ADIM 8: Botu Çalıştırma
 - Botu başlatmak için terminalde aşağıdaki komutu çalıştırın:
-    python bot.py
+--> python bot.py
 - Testleri çalıştırmak için:
-    python run_tests.py
+--> python run_tests.py
 
 
 ## KOMUTLAR
