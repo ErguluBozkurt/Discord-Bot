@@ -9,7 +9,7 @@ Python'ı kullanamk için çeşitli arayüzler mevcuttur. Örneğin:
 
 ## ADIM 2: Kütüphaneleri İndirin
 - Aşağıdaki komutu kullanarak gerekli kütüphaneleri yükleyebilirsiniz:
-  --> pip install -r requirements.txt
+- --> pip install -r requirements.txt
 - Manuel olarak indirmek isterseniz aşağıdaki komutları python terminalinizde çalıştırın.
   --> pip install discord.py
   --> pip install databases
