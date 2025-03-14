@@ -21,7 +21,7 @@
 - Proje dosyalarını bilgisayarınıza indirin veya klonlayın:
 - ---> git clone **https://github.com/ErguluBozkurt/Discord-Bot.git**
 - Klasör içerisinden botu çalıştırmak için bot.py scriptine, test yapmak için ise run_tests.py scriptinin olduğu klasöre ulaşın.
-- ---> cd Discord-Bot
+- ---> cd Discord Bot
 
 
 ## ADIM 4: Bot Hesabı Oluşturma
