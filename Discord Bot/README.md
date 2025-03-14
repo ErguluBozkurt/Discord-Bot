@@ -67,11 +67,11 @@ Python'ı kullanamk için çeşitli arayüzler mevcuttur. Örneğin:
 - - !complete_task <task_id>: <task_id> tanımlayıcısına sahip görevi tamamlandı olarak işaretler.
     
 Örneğin:
-Sunucuda bir kanala gidin ve şu komutları sırası ile yazın:
-- - !add_task Proje raporunu tamamla
-Aynı kanala şu komutu yazın:
-- - !show_tasks
-Görevi tamamlandı olarak işaretlemek için şu komutu yazın:
-- - !complete_task 1
-Görevi silmek için şu komutu yazın:
-- - !delete_task 1
+- Sunucuda bir kanala gidin ve şu komut ile görev ekleyin:
+- ---> !add_task Proje raporunu tamamla
+- Aynı kanala şu komutu yazın:
+- ---> !show_tasks
+- Görevi tamamlandı olarak işaretlemek için şu komutu yazın:
+- ---> !complete_task 1
+- Görevi silmek için şu komutu yazın:
+- ---> !delete_task 1
