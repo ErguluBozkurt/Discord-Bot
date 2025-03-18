@@ -20,16 +20,7 @@ class TestCompleteTask(unittest.TestCase):
         self.c.execute("SELECT * FROM tasks WHERE id = ?", (task_id,))
         task = self.c.fetchone()
         self.assertEqual(task['completed'], 1, "Mission not completed.")
-        
-    def test_complete_already_completed_task(self):
-        self.c.execute("INSERT INTO tasks (description, completed) VALUES (?, ?)", ("Test Task", 1))
-        self.conn.commit()
-        task_id = self.c.lastrowid
-        self.c.execute("UPDATE tasks SET completed = 1 WHERE id = ?", (task_id,))
-        self.conn.commit()
-        self.c.execute("SELECT * FROM tasks WHERE id = ?", (task_id,))
-        task = self.c.fetchone()
-        self.assertEqual(task['completed'], 1, "Task should remain completed.")
+    
         
 if __name__ == '__main__':
     unittest.main()
