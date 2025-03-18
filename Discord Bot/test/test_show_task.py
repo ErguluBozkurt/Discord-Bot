@@ -18,6 +18,11 @@ class TestShowTasks(unittest.TestCase):
         self.c.execute("SELECT * FROM tasks")
         tasks = self.c.fetchall()
         self.assertEqual(len(tasks), 2, "Tasks could not be displayed correctly.")
-
+        
+    def test_show_no_tasks(self):
+        self.c.execute("SELECT * FROM tasks")
+        tasks = self.c.fetchall()
+        self.assertEqual(len(tasks), 0, "Tasks list should be empty.")
+        
 if __name__ == '__main__':
     unittest.main()
