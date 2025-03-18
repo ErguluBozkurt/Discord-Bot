@@ -17,6 +17,12 @@ class TestAddTask(unittest.TestCase):
         self.c.execute("SELECT * FROM tasks WHERE description = ?", ("Test Task",))
         task = self.c.fetchone()
         self.assertIsNotNone(task, "Failed to add a task.")
-
+        
+    def test_add_long_description_task(self):
+        long_description = "a" * 256
+        with self.assertRaises(ValueError):
+            self.c.execute("INSERT INTO tasks (description, completed) VALUES (?, ?)", (long_description, 0))
+            self.conn.commit()
+            
 if __name__ == '__main__':
     unittest.main()
